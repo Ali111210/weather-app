@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.box{
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 7px rgb(52, 51, 51);
+    border-radius: 20px;
+}
+
+.zhana-tapsyrma{
+    background-color:cornflowerblue;
+    width: 150px;
+    align-items: center;
+    cursor: pointer;
+    height: 57px;
+    border: none;border-radius: 5px;
+    color: white;
+}
+
+.zhana-tapsyrma:hover{
+    background-color: darkblue;
+    transition-duration: 0.5s;
+}
+
+.form-group{
+    margin-top: 20px;
+}
